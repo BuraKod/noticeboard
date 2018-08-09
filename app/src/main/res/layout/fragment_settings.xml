@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.burakod.noticeboard.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notificationlogo"
+            android:layout_margin="25dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Bilgileri"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"
+
+
+            />
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_gravity="center"
+            android:src="@drawable/profilicon"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Email Address"/>
+
+        <ImageView
+            android:id="@+id/imgSignOut"
+            android:layout_marginTop="20dp"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/signout"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</FrameLayout>
